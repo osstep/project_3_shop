@@ -13,6 +13,12 @@
             text-align: center
         .feed-form
             margin: 36px auto
+    .reviews
+        &__card
+            &__img
+                margin: 0 20px 0 10px
+            &__info
+                margin: 0 20px 0 10px
 @media (max-width: 767px)
     .header
         &__phone
@@ -43,6 +49,16 @@
             width: 550px
             img
                 width: 100%
+    .catalog
+        &__tab
+            font-size: 14px
+            width: 150px
+    .reviews
+        &__card
+            &__img
+                height: 130px
+
+                
         
 @media (max-width: 576px)
     .header
@@ -82,3 +98,32 @@
     .carousel
         &__inner
             width: 300px
+    .catalog
+        &__tab
+            font-size: 10px
+            width: 95px
+            height: 40px
+            line-height: 37px
+            transform: none
+            border: 2px solid #D0D0D0
+            &:hover
+                box-shadow: none
+            div
+                transform: none
+    .reviews
+        &__title
+            font-size: 24px
+            margin-bottom: 30px
+        &__card
+            flex-wrap: wrap
+            justify-content: center    
+            &__img
+                margin-bottom: 20px
+            &__info
+                &__name
+                    text-align: center
+                &__marafons-info
+                    text-align: center
+                    margin-bottom: 10px
+                &__desc
+                    font-size: 14px
